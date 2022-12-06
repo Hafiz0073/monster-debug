@@ -30,7 +30,7 @@
 
     </header>
     <main>
-        <div class="container" id="var">
+        <div class="container" id="storage-difference">
             <h3 class="text-center pt-4">Difference Between session storage and local storage</h3>
             <table class="table">
                 <thead>
@@ -50,7 +50,7 @@
                     <tr>
                         <th scope="row">2</th>
                         <td colspan="3">Session Storage data is not shared with other sites.</td>
-                        <td colspan="3">TLocal storage is useful for storing data that the user will need to access
+                        <td colspan="3">Local storage is useful for storing data that the user will need to access
                             later, such as offline data
                     </tr>
                     <tr>
@@ -65,6 +65,38 @@
                         <th scope="row">4</th>
                         <td colspan="3">It allows 5MB of data to be stored.</td>
                         <td colspan="3">It allows 10MB of data to be stored.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container" id="scope">
+            <h3 class="text-center pt-4">Difference Between Block Scope and Global Scope</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="2">SL</th>
+                        <th colspan="3">Block Scope</th>
+                        <th colspan="3">Global Scope</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td colspan="3"> Inside the function being executed.</td>
+                        <td colspan="3">Scope outside the outermost function attached to window.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td colspan="3">Block Scope is defined with curly braces. It is separated by { and }.</td>
+                        <td colspan="3">Variables in the global scope can be accessed from everywhere on the
+                            application.
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="3">var is a global scope/td>
+                        <td colspan="3">let and const are block scope
                         </td>
                     </tr>
                 </tbody>
