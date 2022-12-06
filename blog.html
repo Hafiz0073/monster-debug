@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+    ">
+    <script src="https://kit.fontawesome.com/e5bc505c8a.js" crossorigin="anonymous"></script>
+    <title>Blogs</title>
+</head>
+
+
+<body>
+    <header>
+        <!-- primary nav start  -->
+        <nav class="navbar navbar-light bg-light container">
+
+
+
+            <ul class="nav justify-content-end pe-3">
+
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="blog.html">Blog</a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <main>
+        <div class="container" id="var">
+            <h3 class="text-center pt-4">Difference Between session storage and local storage</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="2">SL</th>
+                        <th colspan="3">Session Storage</th>
+                        <th colspan="3">Local Storage</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td colspan="3">Session Storage data is only available to the site that created it.</td>
+                        <td colspan="3">The stored data is not deleted when the browser is closed.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td colspan="3">Session Storage data is not shared with other sites.</td>
+                        <td colspan="3">TLocal storage is useful for storing data that the user will need to access
+                            later, such as offline data
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="3">Session Storage data is not persistent, meaning it is only available for the
+                            duration of the user's session on a site.</td>
+                        <td colspan="3">This is especially useful for storing data that you want to persist even if the
+                            user closes the browser, such as preferences or settings.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td colspan="3">It allows 5MB of data to be stored.</td>
+                        <td colspan="3">It allows 10MB of data to be stored.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js
+        "></script>
+</body>
